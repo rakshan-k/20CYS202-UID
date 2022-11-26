@@ -1,6 +1,20 @@
 <!DOCTYPE html>    
 <html>    
-<head>    
+<head>   
+<script>  
+function validateform(){  
+var name=document.myform.uname.value;  
+var password=document.myform.pass.value;  
+  
+if (uname==null || uname==""){  
+  alert("Name can't be blank");  
+  return false;  
+}else if(pass.length<6){  
+  alert("Password must be at least 6 characters long.");  
+  return false;  
+  }  
+}  
+</script>  
 <style>
 body {
   font-family: 'Times New Roman', serif;
@@ -24,15 +38,60 @@ body {
         <br><br>       
         <label><b>Email Address  
         </b>    
-        </lel>    
+        </lel>  
         <input type="text" name="email" id="email" placeholder="Email Address">    
         <br><br>
+        <label><b>Gender:     
+        </b><br><br>    
+        </label>
+        <input type="radio" >
+        <label for="gender">Male</label><br>
+        <input type="radio" >
+        <label for="gender">Female</label><br> <br>
+        <form>
+        <label for="birthday"><b>Birthday:</b></label>
+        <input type="date" id="birthday" name="birthday">
+        <input type="submit">
+        </form>
+        <br><br>
+
+        <label><b>Are you using a car or bike in our parking:     
+        </b><br><br>    
+        </label> 
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1">  bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> car</label><br><br>
+        <b>Click here to upload your ID card image for verification:<b><br><br>
+<form action="/action_page.php">
+  <label for="myfile">Select a file:</label>
+  <input type="file" id="myfile" name="myfile"><br><br>
+  <input type="submit">
+  <br><br>
+    <label for="type">Choose your profession:</label>
+  <select name="type" id="type">
+    <option value="student">student</option>
+    <option value="teacher">teachers</option>
+    <option value="staff">staff</option>
+    <option value="volunteers">volunteers</option>
+    <option value="others">others</option>
+  </select>
+  <br><br>
+        <textarea id="anokha" name="anokha" rows="4" cols="50">this is the website for anokha tech fest, you can find the payment page in the dashboard.</textarea> <br>  <br>
+
         <input type="button" name="log" id="log" value="Log In Here">       
+        
         <br><br>    
+        
+  <input type="submit" value="Submit">
+</form>
+        <br>
         <input type="checkbox" id="check">    
+
         <span>Remember me</span>    
         <br><br>    
-        <a href="forgot_password.html">Forgot Password</a>   
+        <a href="forgot_password.html">Forgot Password</a> 
+        
 
             
     </form>     
