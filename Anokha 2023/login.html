@@ -1,0 +1,152 @@
+<!DOCTYPE html>    
+<html> 
+    <head>
+        <script src="script.js"></script>
+        <style type=text/css> 
+            body 
+            {
+            height: 125vh;
+            margin-top: 80px;
+            padding: 30px;
+            background-size: cover;
+            font-family: sans-serif;
+            }
+            header {
+            background-color: orange;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 5px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 0 25px 0 black;
+            }
+            header * {
+            display: inline;
+            }
+            header li {
+            margin: 20px;
+            }
+            header li a {
+            color: blue;
+            text-decoration: none;
+            }
+        </style> 
+ 
+        <header>
+          <nav>
+          <ul>
+          <li>
+          <a href="login.html"> Login Form</a>
+          </li>
+          <li>
+          <a href="index.html"> Home </a>
+          </li>
+          <li>
+          <a href="paymentpage.html"> Payment Page</a>
+          </li>
+          <li>
+          <a href="about.html"> About </a>
+          </li>
+          <li> <a href="forgot_password.html"> Forgot Password </a>
+          </li>
+          </ul>
+          </nav>
+        </header>
+        <style>
+          div {
+            
+            width: 110%;
+            
+            float: left;
+            align-content: center;
+            align-items: center;
+          }
+
+          form {
+            margin: 0 auto;
+            width: 600px;
+          }
+        </style>
+    <style>
+body {
+  background-image: url('images/69-691636_best-background-images-for-website-wallpapers-high-good-2308370559');
+}
+    </style> 
+    </head>  
+<body> 
+<marquee>   
+    <h1>Anokha TechFest 2023</h1>
+</marquee>
+    <form name="RegForm" onsubmit="return ValidationForm()" method="post">    
+    <h2 style="text-align: center;">REGISTRATION FORM</h2> <br>
+
+   
+   
+        <label><b>User Name     
+        </b>    
+        </label>    
+        <input type="text" name="Name" size="25" id="Name" placeholder="Username">    
+        <br><br>    
+        <label><b>Password     
+        </b>    
+        </lel>    
+        <input type="Password" name="Password" id="Password" placeholder="Password">    
+        <br><br>
+        <p>Address: <br><textarea cols="65" name="Address"></textarea></p>
+        <br />
+        <label><b>Mobile Number     
+        </b>    
+        </label>    
+        <input type="Number" name="Telephone" id="Telephone" size="10" placeholder="PhoneNumber">    
+        <br><br>       
+        <label><b>Email Address  
+        </b>    
+        </lel>  
+        <input type="text" name="EMail" id="EMail" placeholder="Email Address">    
+        <br><br>
+        <label for="birthday"><b>Date Of Birth:</b></label>
+        <input type="date" id="birthday" name="birthday">
+        <input type="submit">
+        <br><br>
+        <label><b>Gender:     
+        </b><br><br>    
+        </label>
+        <input type="radio" >
+        <label for="gender">Male</label><br>
+        <input type="radio" >
+        <label for="gender">Female</label><br> 
+        <input type="radio" >
+        <label for="gender">Other</label><br><br>
+        <label><b>Are you using a car or bike in our parking:     
+        </b><br><br>    
+        </label> 
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1">  bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> car</label><br><br>
+        <b>Click here to upload your ID card image for verification:<b><br><br>
+  <label for="myfile">Select a file:</label>
+  <input type="file" id="myfile" name="myfile"><br>
+  <input type="submit">
+  <br><br>
+    <label for="Type">Choose your profession:</label>
+  <select name="Type" id="Type">
+    <option value="student">student</option>
+    <option value="teacher">teachers</option>
+    <option value="staff">staff</option>
+    <option value="volunteers">volunteers</option>
+    <option value="others">others</option>
+  </select>
+  <br><br>
+
+        <input type="checkbox" id="check">    
+        <span>Remember me</span>  <br><br> 
+      <p>
+        <input type="submit" value="send" name="Submit" />
+        <input type="reset" value="Reset" name="Reset" />
+      </p>       
+    </form>     
+  </body>    
+</html>
