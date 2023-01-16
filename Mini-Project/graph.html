@@ -1,0 +1,70 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Data </title>
+    <link rel="stylesheet" type="text/css" href="graph.css">
+    <link rel="stylesheet" type="text/css" href="nav.css">
+
+    <nav>
+    	<ul class="bar">
+        <li class="nav-item"><a href="index.html"> home </a></li>
+        <li class="nav-item"><a href="graph.html">My Data</a></li>
+        <li class="nav-item"><a href="leaderboard.html">Leader Board</a></li>
+		<li class="nav-item"><a href="account/signin.html">Login</a></li>
+    	</ul>
+    </nav>
+
+</head>
+
+<body>
+
+    <div class = "cardBox">
+        <div class="card">
+            <div>
+                <div class="numbers">20 min</div>
+                <div class="cardName">Highest Focus time</div>
+
+            </div>
+        </div>
+        <div class="card">
+            <div>
+                <div class="numbers">Work</div>
+                <div class="cardName">Highest focus catogary</div>
+                
+            </div>
+        </div>
+        <div class="card">
+            <div>
+                <div class="numbers">Workout</div>
+                <div class="cardName">Highest focus work</div>
+                
+            </div>
+        </div>
+        <div class="card">
+            <div>
+                <div class="numbers">1024</div>
+                <div class="cardName">Achivement score</div>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <div class = "graphBox">
+        <div class="box">
+            <canvas id="myChart"></canvas>
+        </div>
+        <div class="box">
+            <canvas id="myChart2"></canvas>
+        </div>
+    </div>
+
+    <!--scripts-->
+    <!--script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.1.2/chart.min.js"></script-->
+    <script type="text/javascript" src="/Users/np/node_modules/chart.js/dist/chart.umd.js"></script>
+    <script type="text/javascript" src="graph.js"></script>
+    <!--script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script-->
+    
+</body>
+
+</html>

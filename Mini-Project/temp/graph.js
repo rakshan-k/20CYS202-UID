@@ -17,7 +17,7 @@ function drawChart() {
   ]);
 
   //piechart
-  var piechart_options = {title:'Pie Chart: How Much Pizza I Ate Last Night',
+  var piechart_options = {title:'Data',
                  width:400,
                  height:300};
   var piechart = new google.visualization.PieChart(document.getElementById('piechart_div'));
@@ -25,7 +25,7 @@ function drawChart() {
 //piechart end
 
 //barchart
-  var barchart_options = {title:'Barchart: How Much Pizza I Ate Last Night',
+  var barchart_options = {title:'Data',
                  width:400,
                  height:300,
                  legend: 'none'};
