@@ -5,7 +5,7 @@
 	padding: 0;
 	list-style: none;
 	box-sizing: border-box;
-	
+
 }
 
 body{
@@ -21,10 +21,11 @@ body{
 	width: 500px;
 	height: 400px;
 	margin: 100px auto 0;
-	background: #f94f62;
+	background: #B0B0B0;
 	padding: 25px 40px;
 	position: relative;
 	border-radius: 5px;
+     
 }
 
 .lboard_section .lboard_tabs ul{
@@ -48,7 +49,7 @@ body{
 	position: absolute;
 	top: 70px;
 	left: 40px;
-	background: #ffd300;
+	background: #404040;
 	width: 100%;
 	height: 100%;
 	border-radius: 5px;
@@ -62,7 +63,7 @@ body{
 	display: flex;
 	align-items: center;
 	padding: 15px 0;
-	border-bottom: 1px solid #ffe773;
+	border-bottom: 1px solid #696969;
 }
 
 .lboard_wrap .lboard_mem:first-child{
@@ -89,7 +90,7 @@ body{
 }
 
 .lboard_wrap .lboard_mem .name_bar p{
-	color: #3a3d51;
+	color: white;
 }
 
 .lboard_wrap .lboard_mem .name_bar p span{
@@ -98,13 +99,13 @@ body{
 
 .lboard_wrap .lboard_mem .points{
 	width: 100px;
-	color: #3a3d51;
+	color: white;
 }
 
 .lboard_wrap .lboard_mem .name_bar .bar_wrap{
 	width: 100%;
 	height: 5px;
-	background: #d5b000;
+	background: #696969;
 	margin-top: 5px;
 	border-radius: 5px;
 	position: relative;
