@@ -10,18 +10,6 @@
     background-color: rgb(255, 255, 255);
 }
 
-.nav-item {
-    float: left;
-}
-
-.payment{
-    display: block;
-    color: black;
-    text-align: right;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
 .nav-item a{
     display: block;
     color: black;
